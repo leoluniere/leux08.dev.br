@@ -8,8 +8,8 @@
 body {
     background-color: var(--bg-color);
     background-image: url("../images/background.webp");
-    background-position: top;
-    background-size: contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
 
     color: var(--main-color);
     font-family: "Doto", serif;
