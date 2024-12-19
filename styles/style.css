@@ -7,6 +7,10 @@
 
 body {
     background-color: var(--bg-color);
+    background-image: url("../images/background.webp");
+    background-position: top;
+    background-size: contain;
+
     color: var(--main-color);
     font-family: "Doto", serif;
     font-size: large;
