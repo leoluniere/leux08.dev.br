@@ -28,21 +28,20 @@ a {
     bottom: 15px;
 
     background-color: var(--bg-color);
-    border-radius: 50px;
     border-color: var(--main-color);
-    border: 2px solid;
+    border: 2px dotted;
     padding: 0px 20px 0px 20px;
 }
 
 #thememusicembed {
-    border-radius: 25px;
+    margin-top: 10px;
+    border: 2px dotted var(--main-color);
 }
 
 #closethememusicbutton {
     color: var(--main-color);
     background-color: transparent;
-    border: 1px solid var(--main-color);
-    border-radius: 10px;
+    border: 2px dotted var(--main-color);
     margin-left: 30px;
     padding: 0px 5px 0px 5px;
 }
