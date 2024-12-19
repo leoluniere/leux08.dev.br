@@ -21,7 +21,7 @@ a {
     color: aqua;
 }
 
-.thememusic {
+#thememusic {
     float: right;
     position: fixed;
     right: 15px;
@@ -32,6 +32,10 @@ a {
     border-color: var(--main-color);
     border: 2px solid;
     padding: 0px 20px 0px 20px;
+}
+
+#thememusicembed {
+    border-radius: 25px;
 }
 
 #closethememusicbutton {
