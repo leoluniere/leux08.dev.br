@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+:root {
+    --main-color: red;
+    --bg-color: black;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--main-color);
+    font-family: "Doto", serif;
+    font-size: large;
+}
+
+.thememusic {
+    float: right;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+
+    background-color: var(--bg-color);
+    border-radius: 50px;
+    border-color: var(--main-color);
+    border: 2px solid;
+    padding: 0px 20px 0px 20px;
+}
