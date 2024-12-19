@@ -12,6 +12,11 @@ body {
     font-size: large;
 }
 
+a {
+    text-decoration-color: aqua;
+    color: aqua;
+}
+
 .thememusic {
     float: right;
     position: fixed;
