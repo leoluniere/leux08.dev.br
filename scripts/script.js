@@ -4,5 +4,3 @@ var thememusicpopup = document.getElementById("thememusic")
 closethememusicpopup.addEventListener('click', function() {
     thememusicpopup.style.display = "none"
   });
-
-Notification.requestPermission()
