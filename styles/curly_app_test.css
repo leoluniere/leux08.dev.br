@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+    color: white;
+    font-family: "Inter";
+}
+
+body {
+    background-color: transparent;
+}
+
+#menubar {
+    background-color: #2d2d2d;
+    border-radius: 15px;
+    height: 22px;
+    margin: 0px;
+    padding-left: 5px;
+}
+
+#appcontents {
+    background-color: transparent;
+    margin: 0px;
+}
+
+#curlybutton {
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: #003f99;
+    font-size: large;
+}
