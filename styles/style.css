@@ -1,44 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-    --main-color: red;
-    --bg-color: #000000;
+    --main-color: white;
+    --bg-color: rgba(62, 71, 89, 0.4);
 }
 
-body {
+.ContentDiv {
+    border-radius: 25px;
     background-color: var(--bg-color);
-    background-image: url("../images/background.webp");
-    background-size: 100%;
-    background-repeat: no-repeat;
-
-    color: var(--main-color);
-    font-family: "Doto", serif;
-    font-size: large;
+    backdrop-filter: blur(50px);
+    padding: 15px;
+    color: #dae2f9;
+    margin-top: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 a {
-    text-decoration-color: aqua;
-    color: aqua;
+    text-decoration-color: #aac7ff;
+    color: #aac7ff;
 }
 
-#thememusic {
-    float: right;
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
-
-    background-color: var(--bg-color);
-    border-color: var(--main-color);
-    border: 2px dotted;
-    padding: 0px 20px 0px 20px;
+@media screen and (min-width: 800px) {
+    .ContentDiv {
+        width: 600px;
+        margin: 0 auto;
+    }
 }
 
-#closethememusicbutton {
-    color: var(--main-color);
+#LastFM {
     background-color: transparent;
-    border: 2px dotted var(--main-color);
-    margin-left: 95%;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding: 0px 5px px 5px;
+    backdrop-filter: none;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+body {
+    background: url("../images/background.webp") no-repeat center center fixed;
+    background-size: cover;
+
+    color: var(--main-color);
+    font-family: "Inter", serif;
+    font-size: large;
 }
