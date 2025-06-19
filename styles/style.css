@@ -1,45 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Inter", serif;
+    font-size: large;
+
     --main-color: white;
-    --bg-color: rgba(62, 71, 89, 0.4);
+    --anchor-color: lightblue;
+    --bg-color: rgba(255, 255, 255, 0.1);
+
+    color: var(--main-color);
+}
+
+.flex-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .ContentDiv {
     border-radius: 25px;
-    background-color: var(--bg-color);
-    backdrop-filter: blur(50px);
+    background: url("../images/glass_texture.png") center fixed repeat;
+    backdrop-filter: blur(7px);
     padding: 15px;
-    color: #dae2f9;
-    margin-top: 15px;
+    color: --main-color;
     border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
 }
 
 a {
-    text-decoration-color: #aac7ff;
-    color: #aac7ff;
+    text-decoration-color: var(--anchor-color);
+    color: var(--anchor-color);
 }
 
 @media screen and (min-width: 800px) {
     .ContentDiv {
-        width: 600px;
         margin: 0 auto;
+        width: 40%;
+    }
+    .flex-div {
+        flex-direction: row;
+        justify-content: center;
+    }
+    #Header {
+        width: 100%;
     }
 }
 
-#LastFM {
-    background-color: transparent;
-    backdrop-filter: none;
-    display: flex;
-    justify-content: center;
-    border: none;
-}
-
 body {
-    background: url("../images/background.webp") no-repeat center center fixed;
-    background-size: cover;
-
-    color: var(--main-color);
-    font-family: "Inter", serif;
-    font-size: large;
+    background: transparent;
+    padding: 15px;
 }
